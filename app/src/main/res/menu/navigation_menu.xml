@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login_fragment"
+            android:title="Login"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_register_fragment"
+            android:title="Register" />
+        <item
+            android:id="@+id/nav_list_users_fragment"
+            android:title="List Users" />
+        <item
+            android:id="@+id/nav_list_books_fragment"
+            android:title="List Books" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_signout"
+                    android:title="Sign Out" />
+            </group>
+        </menu>
+    </item>
+</menu>
